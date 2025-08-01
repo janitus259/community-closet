@@ -1,0 +1,22 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ad {
+  border: 2px solid rgb(32, 32, 32);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: max(70%, 200px);
+  background-color: aqua;
+  flex: 1 1;
+}
+
+.ad h3 {
+  margin: 0px;
+}
+
+#adPreview {
+  display: flex;
+  flex-wrap: wrap;
+}

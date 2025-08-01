@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <title>Community Closet - Inicio de sesión</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="titulo" style="display: flex; align-items: center; gap: 20px;">
+        <img src="imagenes/logo.png" alt="Community Closet logo" style="height: 100px; width: auto;" />
+        <div>
+          <h1>Community Closet</h1>
+          <p>DONDE UNIFORMES Y LIBROS ENCUENTRAN UN NUEVO HOGAR</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Browse</a></li>
+          <li><a href="#">Sell</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="buttons">
+      <button onclick="showLoginForm()">Log In</button>
+      <button onclick="showSignupForm()">Sign Up</button>
+    </section>
+
+   
+    <form class="login-form" style="display: none;">
+      <h2>Iniciar sesión</h2>
+      <label for="login-email">Correo electrónico</label>
+      <input type="email" id="login-email" required>
+      <button type="submit">Entrar</button>
+    </form>
+
+    <form class="signup-form" style="display: none;">
+      <h2>Registrarse</h2>
+      <label for="signup-name">Nombre</label>
+      <input type="text" id="signup-name" required>
+      <label for="signup-email">Correo electrónico</label>
+      <input type="email" id="signup-email" required>
+      <label for="signup-password">Contraseña</label>
+      <input type="password" id="signup-password" required>
+      <button type="submit">Registrarse</button>
+    </form>
+
+    <footer>
+      Copyright 2025.
+      Jan Alcazar Orengo 🫡🤫
+    </footer>
+  </div>
+</body>
+</html>

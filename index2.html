@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tienda Escolar - Community Closet</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <div>📞 Contáctanos | ✉️ info@closet.com</div>
+      <div>
+        <a href="#">Mi cuenta</a> |
+        <a href="#">🛒 <span id="cart-count">0</span> ítems</a>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="#">Inicio</a>
+      <a href="#">Tienda</a>
+      <a href="#">Blog</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="grid-container">
+    <section class="content">
+      <h2>Material Escolar</h2>
+      <div class="product-grid">
+        
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200?text=Mochila" alt="Mochila Escolar" />
+          <p class="product-title">Mochila Escolar</p>
+          <p class="price">$25.00</p>
+          <button class="add-to-cart" data-name="Mochila Escolar" data-price="25.00">Añadir</button>
+        </div>
+
+      
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200?text=Cuaderno" alt="Cuaderno Rayado" />
+          <p class="product-title">Cuaderno Rayado</p>
+          <p class="price">$3.50</p>
+          <button class="add-to-cart" data-name="Cuaderno Rayado" data-price="3.50">Añadir</button>
+        </div>
+
+      
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200?text=Lápices" alt="Set de Lápices" />
+          <p class="product-title">Set de Lápices</p>
+          <p class="price">$4.00</p>
+          <button class="add-to-cart" data-name="Set de Lápices" data-price="4.00">Añadir</button>
+        </div>
+
+        
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200?text=Estuche" alt="Estuche Escolar" />
+          <p class="product-title">Estuche Escolar</p>
+          <p class="price">$7.00</p>
+          <button class="add-to-cart" data-name="Estuche Escolar" data-price="7.00">Añadir</button>
+        </div>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <h3>Buscar</h3>
+      <input type="search" placeholder="Busca productos..." />
+      <h3>Carrito (localStorage)</h3>
+      <ul id="cart-items"></ul>
+    </aside>
+  </main>
+
+  <footer>
+    © 2025 Community Closet. Todos los derechos reservados.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
